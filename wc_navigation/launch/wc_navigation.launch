@@ -3,7 +3,7 @@
   <!-- Arguments -->
   <arg name="open_rviz" default="false"/>
   <arg name="move_forward_only" default="false"/>
-  <arg name="map_file" default="$(find wc_navigation)/maps/test_3.yaml"/>
+  <arg name="map_file" default="$(find wc_navigation)/maps/test_2.yaml"/>
 
   <!-- Map server -->
   <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
