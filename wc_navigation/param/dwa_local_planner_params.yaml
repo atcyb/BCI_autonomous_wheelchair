@@ -32,11 +32,12 @@ DWAPlannerROS:
 # Trajectory Scoring Parameters
   path_distance_bias: 32.0
   goal_distance_bias: 24.0
-  occdist_scale: 0.002 #occdist scale is the weight for how much the robot should attempt to avoid obstacles. A high value for this parameter results in indecisive robot that stucks in place
+  occdist_scale: 0.015 #occdist scale is the weight for how much the robot should attempt to avoid obstacles. A high value for this parameter results in indecisive robot that stucks in place
+  
   forward_point_distance: 0.325
   stop_time_buffer: 0.2
   scaling_speed: 0.25
-  max_scaling_factor: 0.2
+  max_scaling_factor: 0.2f
   yaw_goal_tolerance: 1.0  #these are not default values, need to tune, default is 0.05
   xy_goal_tolerance: 0.3 #these are not default values, need to tune, default is 0.1
 
