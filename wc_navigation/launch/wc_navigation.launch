@@ -27,6 +27,6 @@
     <node pkg="rviz" type="rviz" name="rviz" required="true"
           args="-d $(find wc_navigation)/rviz/wc_navigation.rviz"/>
   </group>
-  
+    
   <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="0.50 -0.20 0 1.57 0 3.14 base_link laser 10"/>
 </launch>

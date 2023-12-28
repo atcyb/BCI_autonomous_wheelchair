@@ -1,0 +1,33 @@
+ekf_localization_node:
+  type: "EkfLocalizer"
+
+  frequency: 30
+
+  odom_frame: "odom"
+  base_link_frame: "base_link"
+  world_frame: "map"
+
+  two_d_mode: true
+
+  sensors:
+    - sensor_type: "odometry"
+      odom_frame: "odom"
+      topic: "odom"
+
+      pose0: true
+      twist0: true
+
+    - sensor_type: "imu"
+      imu_frame: "imu_link"
+      topic: "imu_data"
+
+      linear_acceleration:
+        x: true
+        y: true
+        z: true
+
+      angular_velocity:
+        x: true
+        y: true
+        z: true
+

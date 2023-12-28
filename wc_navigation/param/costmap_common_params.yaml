@@ -1,5 +1,5 @@
 #robot_radius: 0.30 #initially 0.15
-footprint: [[0, 0], [0, -0.114], [-0.64, 0], [-0.64, -0.114]]
+footprint: [[0, 0], [0, -0.180], [-0.90, 0], [-0.90, -0.180]]
 transform_tolerance: 0.4
 map_type: costmap
 
