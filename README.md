@@ -138,7 +138,7 @@ rosrun rosserial_python serial_node.py /dev/ttyACM0
 ### Demonstrations
 2D map of lab
 
-![map](https://drive.google.com/file/d/11ijjjGvePhxCgYvZODYumCi8_CO95Vh7/view?usp=sharing)
+![map](README%20b4d642b1ba3249dd85b1bd94d6f46439/test_3.png)
 
 2D navigation in a lab environment
 
