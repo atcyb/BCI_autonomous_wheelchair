@@ -1,6 +1,6 @@
 # README
 
-Contributor: Anurag Maurya
+Contributor: Aakash Tiwari
 
 ## File structure:
 
