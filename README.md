@@ -159,20 +159,12 @@ rosrun rosserial_python serial_node.py /dev/ttyACM0
 
 [3D_nav.mp4](README%20b4d642b1ba3249dd85b1bd94d6f46439/3D_nav.mp4)
 
+IMU
+[imu_visulaization](https://www.youtube.com/watch?v=5yBu7VM4hyY)
+
 ## Issues
 
 **uvc streamer issues:**
 
 [https://github.com/IntelRealSense/realsense-ros/issues/2149](https://github.com/IntelRealSense/realsense-ros/issues/2149)
 
-## References
-
-```
-@article{Jia2021Person2DRange,
-  title        = {{Self-Supervised Person Detection in 2D Range Data using a
-                   Calibrated Camera}},
-  author       = {Dan Jia and Mats Steinweg and Alexander Hermans and Bastian Leibe},
-  booktitle    = {International Conference on Robotics and Automation (ICRA)},
-  year         = {2021}
-}
-```
