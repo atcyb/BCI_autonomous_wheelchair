@@ -121,7 +121,7 @@ roslaunch wc_navigation3D wc_3d_mapping.launch
 ### Navigation in 3D using entire setup
 
 ```bash
-	roslaunch wc_navigation3D wc_3D2.launch
+roslaunch wc_navigation3D wc_3D2.launch
 ```
 
 ### Getting Person detections
@@ -136,6 +136,9 @@ rosrun rosserial_python serial_node.py /dev/ttyACM0
 ```
 
 ### Demonstrations
+2D map of lab
+
+![map](https://drive.google.com/file/d/11ijjjGvePhxCgYvZODYumCi8_CO95Vh7/view?usp=sharing)
 
 2D navigation in a lab environment
 
@@ -159,7 +162,7 @@ rosrun rosserial_python serial_node.py /dev/ttyACM0
 
 [3D_nav.mp4](README%20b4d642b1ba3249dd85b1bd94d6f46439/3D_nav.mp4)
 
-IMU
+IMU visualization in rviz
 [imu_visulaization](https://www.youtube.com/watch?v=5yBu7VM4hyY)
 
 ## Issues
