@@ -1,6 +1,6 @@
 # README
 
-Contributor: Anurag Maurya
+Contributor: Aakash Tiwari
 
 ## File structure:
 
@@ -121,7 +121,7 @@ roslaunch wc_navigation3D wc_3d_mapping.launch
 ### Navigation in 3D using entire setup
 
 ```bash
-	roslaunch wc_navigation3D wc_3D2.launch
+roslaunch wc_navigation3D wc_3D2.launch
 ```
 
 ### Getting Person detections
@@ -136,6 +136,9 @@ rosrun rosserial_python serial_node.py /dev/ttyACM0
 ```
 
 ### Demonstrations
+2D map of lab
+
+![map](README%20b4d642b1ba3249dd85b1bd94d6f46439/test_3.png)
 
 2D navigation in a lab environment
 
@@ -159,20 +162,12 @@ rosrun rosserial_python serial_node.py /dev/ttyACM0
 
 [3D_nav.mp4](README%20b4d642b1ba3249dd85b1bd94d6f46439/3D_nav.mp4)
 
+IMU visualization in rviz
+[imu_visulaization](https://www.youtube.com/watch?v=5yBu7VM4hyY)
+
 ## Issues
 
 **uvc streamer issues:**
 
 [https://github.com/IntelRealSense/realsense-ros/issues/2149](https://github.com/IntelRealSense/realsense-ros/issues/2149)
 
-## References
-
-```
-@article{Jia2021Person2DRange,
-  title        = {{Self-Supervised Person Detection in 2D Range Data using a
-                   Calibrated Camera}},
-  author       = {Dan Jia and Mats Steinweg and Alexander Hermans and Bastian Leibe},
-  booktitle    = {International Conference on Robotics and Automation (ICRA)},
-  year         = {2021}
-}
-```

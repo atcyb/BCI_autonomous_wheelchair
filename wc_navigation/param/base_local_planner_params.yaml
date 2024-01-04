@@ -1,27 +1,20 @@
 TrajectoryPlannerROS:
 
 # Robot Configuration Parameters
- max_vel_x: 1.3     # 1.3
-  min_vel_x: 0.4     # 0.7
+  max_vel_x: 0.18
+  min_vel_x: 0.08
 
-  max_vel_y: 0.0
-  min_vel_y: 0.0
+  max_vel_theta:  1.0
+  min_vel_theta: -1.0
+  min_in_place_vel_theta: 1.0
 
-
-# The velocity when robot is moving in a straight line
-  max_vel_trans: 0.7      # 0.55
-  min_vel_trans: 0.1      # 0.1
-
-  max_vel_theta:  1.0        #1.5     
-  min_vel_theta:  -1.0            #-1.5
-
-  acc_lim_x: 1.3 #The x acceleration limit of the robot in meters/sec^2  (double, default: 2.5)   
-  acc_lim_y: 0.0 #The y acceleration limit of the robot in meters/sec^2 (double, default: 2.5) 
-  acc_lim_theta: 2.5  #The rotational acceleration limit of the robot in radians/sec^2 (double, default: 3.2) 
+  acc_lim_x: 1.0
+  acc_lim_y: 0.0
+  acc_lim_theta: 0.6
 
 # Goal Tolerance Parameters
   xy_goal_tolerance: 0.10
-  yaw_goal_tolerance: 0.1
+  yaw_goal_tolerance: 0.05
 
 # Differential-drive robot configuration
   holonomic_robot: false
@@ -31,4 +24,3 @@ TrajectoryPlannerROS:
   vx_samples: 18
   vtheta_samples: 20
   sim_granularity: 0.05
-  
