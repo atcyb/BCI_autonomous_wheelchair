@@ -63,7 +63,7 @@ To launch the navigation and integrate the BCI headset
 ```bash
 roslaunch wc_navigation wc_bci.launch
 ```
-
+SVTL
 ---
 
 ### 3D Mapping using Realsense
